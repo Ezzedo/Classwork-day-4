@@ -1,0 +1,31 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 100px;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 10px solid yellow;
+    width: 50vh;
+}
+
+.container2{
+    display: flex;
+    border: 10px solid green;
+    width: 70vh;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
